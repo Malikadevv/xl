@@ -1,0 +1,286 @@
+@media(max-width:1440px){
+.container{
+  width:90%;
+}
+  #plan{
+    .plan{
+      &--lineBlog{
+        &__circle3{
+          width: 400px;
+          height: 400px;
+        }
+      }
+    }
+  }
+  #hero{
+    width:1140px;
+  }
+
+};
+@media(max-width:1200px){
+  #hero{
+    .hero{
+      &--right{
+        transform: rotate(359deg) !important;
+      }
+    }
+  }
+  #help{
+    .help{
+&--grow{
+  &__ion{
+    width: 232px !important;
+    height: 332px !important;
+  }
+
+}
+    }
+  }
+
+};
+@media(max-width:1140px){
+#plan{
+  .plan{
+    &--lineBlog{
+      width: 80% !important;
+    }
+  }
+}
+  #our{
+    .our{
+      flex-direction: column;
+      padding: 20px 0;
+    }
+  }
+};
+@media(max-width:1024px){
+  #hero{
+    .hero{
+      flex-direction: column;
+      &--right{
+        &__block{
+
+        }
+        &__navbar{
+          justify-content: flex-start !important;
+          &--march{
+            right: 371px !important;
+          }
+        &--prof{
+          &__profile{
+            right: 296px !important;
+            display: none!important;
+          }
+        }
+        }
+      }
+    }
+  }
+  #all{
+    .all{
+    &--pol{
+    flex-wrap: wrap;
+
+    }
+    }
+  }
+  #busy{
+    .busy{
+      &--law{
+        h1{
+          font-size: 25px !important;
+        }
+      }
+      &--it{
+        &__off{
+          width: 363px !important;
+          height: 350px !important;
+        }
+      }
+    }
+  }
+  #plan{
+    .plan{
+      &--txtBlogTwo{
+      right: 231px !important;
+    }
+      &--lineBlog{
+        img{
+          display: none;
+        }
+
+
+      }
+    }
+  }
+  #end{
+    .end{
+      &--apple{
+        h1{
+          font-size: 27px !important;
+        }
+      }
+    }
+  }
+  #hello{
+    .hello{
+      &--ytyr{
+        &__could{
+          p{
+            font-size: 24px !important;
+          }
+        }
+      }
+    }
+  }
+   #track{
+  .track{
+    &--the{
+      h1{
+        font-size: 30px !important;
+      }
+    }
+  }
+}
+};
+@media(max-width:992px){
+  #fancy{
+    .fancy{
+      &--box{
+        img{
+          width: 600px!important;
+          height: 305px!important;
+        }
+        &__sky{
+          h1{
+            font-size: 30px !important;
+          }
+        }
+      }
+    }
+  }
+};
+@media(max-width:820px){
+  #help{
+    .help{
+      &--grow{
+        &__ion{
+          padding: 15px 0 ;
+          width: 200px !important;
+          height: 240px !important;
+        h3{
+          font-size: 22px !important;
+        }
+        p{
+          font-size: 10px!important;
+        }
+      }
+      }
+    }
+  }
+  #hello{
+    .hello{
+      &--ytyr{
+        &__could{
+          p{
+            font-size: 13px !important;
+          }
+        }
+      }
+    }
+  }
+  #plan{
+    .plan{
+      &--txtBlog{
+        width: 235px !important;
+      }
+      &--txtBlogTwo{
+        bottom: 190px !important;
+      }
+      &--lineBlog{
+        .circle1{
+          display: none;
+        }
+        .circle2{
+          display: none;
+        }
+        .circle3{
+          display: none;
+        }
+        }
+      }
+    }
+  #hero{
+    .hero{
+      &--right{
+
+      }
+    }
+  }
+  #our{
+    padding: 40px 0!important;
+    .our{
+
+   &--post{
+   h1{
+    font-size: 26px!important;
+
+  }
+}
+    }
+  }
+};
+@media(max-width:768px){
+  #our{
+    .our{
+      &--so{
+        &__prins{
+          img{
+            width: 290px;
+            height: 240px;
+          }
+        }
+      }
+    }
+  }
+  #help{
+    .help{
+      flex-wrap: wrap !important;
+
+      &--grow{
+        &__ion{
+          h3{
+            font-size: 20px !important;
+          }
+          p{
+            font-size: 10px!important;
+          }
+        }
+      }
+    }
+  }
+  #busy{
+    .busy{
+      &--it{
+        flex-wrap: wrap;
+        &__off{
+          h3{
+            font-size: 20px!important;
+          }
+        }
+      }
+
+    }
+  }
+
+};
+@media(max-width:648px){
+#hello{
+  .hello{
+    display: none;
+  }
+}
+};
+@media(max-width:576px){};
+@media(max-width:480px){};
+@media(max-width:320px){};

@@ -1,0 +1,104 @@
+@mixin btn{
+  transition: .4s;
+  cursor:pointer;
+  background: #F57059;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 13px 26px;
+  color: #ffffff;
+  &:hover{
+    transform: scale(1.1);
+    border: 1px solid black;
+    background: rgba(255, 255, 255, 0.44);
+}}
+@mixin df{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+@mixin df1{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@mixin alignment {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+// alignment center
+@mixin alignment-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+// sections title
+@mixin section-title {
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  color: #000000;
+}
+
+@mixin section-parag {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: -0.02em;
+  color: #64607D;
+}
+
+@mixin around {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+@mixin input{
+  background: #F2F3F4;
+  opacity: 0.2;
+  border-radius: 5px;
+  padding: 15px 77px;
+  font-size: 20px;
+  letter-spacing: -0.02em;
+  color: #BBB5E0;
+  box-shadow: 10px 10px 18px rgba(0, 0, 0, 0.26), -10px -10px 24px rgba(0, 0, 0, 0.29);
+  input::placeholder{
+    color: #ffffff;
+  }}
+@mixin fd {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+@mixin center {
+  display: flex;
+  align-items: center;
+}
+@mixin dfc {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+@mixin dfe {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+
+
+
+
+//
+//@mixin input{
+//    padding: 26px 91px;
+//    margin-top: 10px;
+//    background: rgba(255, 255, 255, 0.26);
+//    border: 2px solid rgba(241, 241, 241, 0.17);
+//
+//    border-radius: 6px;
+//    font-size: 17px;
+//
+//}
